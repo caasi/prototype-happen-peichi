@@ -89,3 +89,40 @@ td {
 a img {
   border: none;
 }
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #fff;
+  background: url("img/px_by_Gre3g.png");
+}
+body #container {
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+body #container #countdown,
+body #container #message {
+  font-weight: bold;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.4);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+body #container #countdown {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  font-size: 400%;
+}
+body #container #message {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 50%;
+  font-size: 200%;
+  line-height: 1.3em;
+}
